@@ -16,7 +16,7 @@ namespace ParallelTests
             bool enableSSL = true;
 
             string emailFrom = "ewonpushuser@gmail.com";
-            string password = "nzhvoostnazmyoup";
+            //string password = "nzhvoostnazmyoup";
             string emailTo = "sumit.joshi@yash.com";
             string subject = "Hello";
             string body = "Hello, I'm just writing this to say Hi!";
