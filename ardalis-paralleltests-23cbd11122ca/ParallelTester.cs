@@ -10,7 +10,7 @@ namespace ParallelTests
         public void Test01()
         {
             Thread.Sleep(5000);
-        
+        }
         [TestMethod]
         public void Test02()
         {
