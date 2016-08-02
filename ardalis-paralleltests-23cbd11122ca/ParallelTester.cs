@@ -9,36 +9,9 @@ namespace ParallelTests
     public partial class ParallelTester
     {
         [TestMethod]
-        public void Test01()
+        public void LoadSql()
         {
-            string smtpAddress = "smtp.gmail.com";
-            int portNumber = 587;
-            bool enableSSL = true;
-
-            string emailFrom = "ewonpushuser@gmail.com";
-            //string password = "nzhvoostnazmyoup";
-            string emailTo = "sumit.joshi@yash.com";
-            string subject = "Hello";
-            string body = "Hello, I'm just writing this to say Hi!";
-
-            using (MailMessage mail = new MailMessage())
-            {
-                
-                mail.From = new MailAddress(emailFrom);
-                mail.To.Add(emailTo);
-                mail.Subject = subject;
-                mail.Body = body;
-                mail.IsBodyHtml = true;
-                // Can set to false, if you are sending pure text.
-
-
-                using (SmtpClient smtp = new SmtpClient(smtpAddress, portNumber))
-                {
-                    smtp.Credentials = new NetworkCredential(emailFrom, password);
-                    smtp.EnableSsl = enableSSL;
-                    smtp.Send(mail);
-                }
-            }
+            Assert.AreEqual("Add", "add");
             Thread.Sleep(50000);
         }
         [TestMethod]
