@@ -1,5 +1,8 @@
 C:\Users\sumit.joshi\Source\Repos\PUnit2\ardalis-paralleltests-23cbd11122ca\bin\Debug\ParallelTests.dll
 C:\Users\sumit.joshi\Source\Repos\PUnit2\ardalis-paralleltests-23cbd11122ca\bin\Debug\ParallelTests.pdb
+C:\Users\sumit.joshi\Source\Repos\PUnit2\ardalis-paralleltests-23cbd11122ca\bin\Debug\BaseClass.dll
 C:\Users\sumit.joshi\Source\Repos\PUnit2\ardalis-paralleltests-23cbd11122ca\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\sumit.joshi\Source\Repos\PUnit2\ardalis-paralleltests-23cbd11122ca\bin\Debug\BaseClass.pdb
+C:\Users\sumit.joshi\Source\Repos\PUnit2\ardalis-paralleltests-23cbd11122ca\obj\Debug\ParallelTests.csprojResolveAssemblyReference.cache
 C:\Users\sumit.joshi\Source\Repos\PUnit2\ardalis-paralleltests-23cbd11122ca\obj\Debug\ParallelTests.dll
 C:\Users\sumit.joshi\Source\Repos\PUnit2\ardalis-paralleltests-23cbd11122ca\obj\Debug\ParallelTests.pdb

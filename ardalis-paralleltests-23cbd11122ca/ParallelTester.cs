@@ -1,4 +1,5 @@
-﻿using System.Threading;
+﻿using BaseClass;
+using System.Threading;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Net.Mail;
 using System.Net;
@@ -8,129 +9,48 @@ namespace ParallelTests
     [TestClass]
     public partial class ParallelTester
     {
-        [TestMethod]
-        public void LoadSql()
+        Excel excel = new Excel();
+        Ftp ftp = new Ftp();
+        Sql sql = new Sql();
+
+        [TestMethod()]
+        public void LoadFTP_Success()
         {
-            Assert.AreEqual("Add", "add");
-            Thread.Sleep(50000);
+            bool result = ftp.Load();   
+            Assert.AreEqual(true, result);
         }
-        [TestMethod]
-        public void Test02()
+        [TestMethod()]
+        public void LoadFTP_Fail()
         {
-            Assert.AreEqual("Add", "add");
-            Thread.Sleep(50000);
+            bool result = ftp.Load();
+            Assert.AreNotEqual(false, result);
         }
-        [TestMethod]
-        public void Test03()
+
+        [TestMethod()]
+        public void LoadExcel_Success()
         {
-            Assert.AreEqual("Add", "add");
-            Thread.Sleep(50000);
+            bool result = excel.Load();
+            Assert.AreEqual(true, result);
         }
-        [TestMethod]
-        public void Test04()
+        [TestMethod()]
+        public void LoadExcel_Fail()
         {
-            Assert.AreEqual("Add", "add");
-            Thread.Sleep(50000);
+            bool result = excel.Load();
+            Assert.AreNotEqual(false, result);
         }
-        [TestMethod]
-        public void Test05()
+
+        [TestMethod()]
+        public void LoadSql_Success()
         {
-            Thread.Sleep(50000);
+            bool result = sql.Load();
+            Assert.AreEqual(true, result);
         }
-        [TestMethod]
-        public void Test06()
+        [TestMethod()]
+        public void LoadSql_Fail()
         {
-            Thread.Sleep(50000);
+            bool result = sql.Load();
+            Assert.AreNotEqual(false, result);
         }
-        [TestMethod]
-        public void Test07()
-        {
-            Thread.Sleep(50000);
-        }
-        [TestMethod]
-        public void Test08()
-        {
-            Thread.Sleep(26000);
-        }
-        [TestMethod]
-        public void Test09()
-        {
-            Thread.Sleep(50000);
-        }
-        [TestMethod]
-        public void Test10()
-        {
-            Thread.Sleep(50000);
-        }
-        [TestMethod]
-        public void Test11()
-        {
-            Thread.Sleep(50000);
-        }
-        [TestMethod]
-        public void Test12()
-        {
-            Thread.Sleep(50000);
-        }
-        [TestMethod]
-        public void Test13()
-        {
-            Thread.Sleep(50000);
-        }
-        [TestMethod]
-        public void Test14()
-        {
-            Thread.Sleep(50000);
-        }
-        [TestMethod]
-        public void Test15()
-        {
-            Thread.Sleep(50000);
-        }
-        [TestMethod]
-        public void Test16()
-        {
-            Thread.Sleep(50000);
-        }
-        [TestMethod]
-        public void Test17()
-        {
-            Thread.Sleep(50000);
-        }
-        [TestMethod]
-        public void Test18()
-        {
-            Thread.Sleep(50000);
-        }
-        [TestMethod]
-        public void Test19()
-        {
-            Thread.Sleep(50000);
-        }
-        [TestMethod]
-        public void Test20()
-        {
-            Thread.Sleep(50000);
-        }
-        [TestMethod]
-        public void Test21()
-        {
-            Thread.Sleep(50000);
-        }
-        [TestMethod]
-        public void Test22()
-        {
-            Thread.Sleep(50000);
-        }
-        [TestMethod]
-        public void Test23()
-        {
-            Thread.Sleep(50000);
-        }
-        [TestMethod]
-        public void Test24()
-        {
-            Thread.Sleep(50000);
-        }
+
     }
 }

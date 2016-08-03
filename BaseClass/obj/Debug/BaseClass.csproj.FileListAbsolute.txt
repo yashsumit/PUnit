@@ -1,0 +1,4 @@
+C:\Users\sumit.joshi\Source\Repos\PUnit2\BaseClass\bin\Debug\BaseClass.dll
+C:\Users\sumit.joshi\Source\Repos\PUnit2\BaseClass\bin\Debug\BaseClass.pdb
+C:\Users\sumit.joshi\Source\Repos\PUnit2\BaseClass\obj\Debug\BaseClass.dll
+C:\Users\sumit.joshi\Source\Repos\PUnit2\BaseClass\obj\Debug\BaseClass.pdb
