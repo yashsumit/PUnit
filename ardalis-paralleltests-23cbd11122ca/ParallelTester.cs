@@ -17,16 +17,19 @@ namespace ParallelTests
         [TestMethod]
         public void Test02()
         {
+            Assert.AreEqual("Add", "add");
             Thread.Sleep(50000);
         }
         [TestMethod]
         public void Test03()
         {
+            Assert.AreEqual("Add", "add");
             Thread.Sleep(50000);
         }
         [TestMethod]
         public void Test04()
         {
+            Assert.AreEqual("Add", "add");
             Thread.Sleep(50000);
         }
         [TestMethod]
