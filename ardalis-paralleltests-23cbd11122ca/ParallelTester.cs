@@ -33,7 +33,7 @@ namespace ParallelTests
         {
             bool result = excel.Load();
             Assert.AreEqual(true, result);
-            Thread.Sleep(2000);
+            Thread.Sleep(2000); 
         }
         [TestMethod()]
         public void LoadExcel_Fail()
