@@ -18,12 +18,14 @@ namespace ParallelTests
         {
             bool result = ftp.Load();   
             Assert.AreEqual(true, result);
+            Thread.Sleep(2000);
         }
         [TestMethod()]
         public void LoadFTP_Fail()
         {
             bool result = ftp.Load();
             Assert.AreNotEqual(false, result);
+            Thread.Sleep(2000);
         }
 
         [TestMethod()]
@@ -31,12 +33,14 @@ namespace ParallelTests
         {
             bool result = excel.Load();
             Assert.AreEqual(true, result);
+            Thread.Sleep(2000);
         }
         [TestMethod()]
         public void LoadExcel_Fail()
         {
             bool result = excel.Load();
             Assert.AreNotEqual(false, result);
+            Thread.Sleep(2000);
         }
 
         [TestMethod()]
@@ -44,12 +48,14 @@ namespace ParallelTests
         {
             bool result = sql.Load();
             Assert.AreEqual(true, result);
+            Thread.Sleep(2000);
         }
         [TestMethod()]
         public void LoadSql_Fail()
         {
             bool result = sql.Load();
             Assert.AreNotEqual(false, result);
+            Thread.Sleep(2000);
         }
 
     }
