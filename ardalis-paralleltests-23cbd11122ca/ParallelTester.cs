@@ -10,7 +10,7 @@ namespace ParallelTests
     public partial class ParallelTester
     {
         Excel excel = new Excel();
-        Ftp ftp = new Ftp();
+        Ftp ftp = new Ftp(); 
         Sql sql = new Sql();
 
         [TestMethod()]
