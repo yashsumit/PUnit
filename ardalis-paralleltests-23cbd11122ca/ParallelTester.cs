@@ -15,7 +15,7 @@ namespace ParallelTests
 
         [TestMethod()]
         public void LoadFTP_Success()
-        {
+        { 
             bool result = ftp.Load();   
             Assert.AreNotEqual(true, result);
             Thread.Sleep(2000);
